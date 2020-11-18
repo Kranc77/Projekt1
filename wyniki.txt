@@ -1,2 +1,1 @@
 Powtarzaj¹ce siê liczby w podanym pliku w którym rozwa¿amy tylko liczby od 1 do n-1, gdzie n jest iloœci¹ liczb to: 
-2, 
