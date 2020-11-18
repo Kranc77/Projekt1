@@ -3,12 +3,12 @@ import os
 wyniki = []
 def znajdz(x):
     for x in range(0,len(list1)):
+         ilosc = 0
          for i in range(0,len(list1)):
-             ilosc = 0
-             if int(list1(x))==int(list1(i)):
-                 ilosc+=1
-             if ilosc>=2:
-                 print(list1(x))
+             if x==list1[i]:
+                 ilosc +=1
+         if ilosc==2:
+             wyniki.append(x)
 list1 = []
 wyniki = []
 f=open("plik.txt")
