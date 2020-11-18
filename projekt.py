@@ -22,3 +22,6 @@ zapis.write("Powtarzające się liczby w podanym pliku w którym rozważamy tylk
 for i in wyniki:
     zapis.write(str(i)+", ")
 zapis.close
+"" \
+"" \
+""
