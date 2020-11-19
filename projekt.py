@@ -1,4 +1,5 @@
 import os
+#zamiast funkcji len() można uzyć zapytania do uzytkownika o ilość liczb ale funkcja len jest wygodniejsza
 wyniki = []
 def znajdz(x):
     for x in range(0,len(list1)):
@@ -22,6 +23,8 @@ zapis.write("Powtarzające się liczby w podanym pliku w którym rozważamy tylk
 for i in wyniki:
     zapis.write(str(i)+", ")
 zapis.close
-"" \
-"" \
-""
+#ogólnie całą funkcję znajdź można zstąpić wyrażeniem
+#    for x in range(0,len(list1)):
+#        if list1.count(x)>=2:
+#            print(x)
+#            wyniki.append(x) co wydawałoby mi się najlepszym rozwiązaniem
