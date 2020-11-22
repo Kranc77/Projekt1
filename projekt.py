@@ -11,9 +11,9 @@ def znajdz(list):
          for i in range(0,ile):
              if x==list1[i]: # tutaj musi być x a nie jak wcześniej list[x] by elementy sie nie powtarzały i by szukano powtarzających się elementów tylko z przedziału zawartego w  treści zadania
                  ilosc+=1
-         if ilosc==2:
+         if ilosc>=2:
              wyniki.append(x)
-             # tutaj jakby dodać brake to znajdzie pierwszy powtarzajacy sie element i zakonczy szukanie dalej
+             break# tutaj jakby dodać "break" to znajdzie pierwszy powtarzajacy sie element i zakonczy szukanie dalej
 #deklaracja list
 list1 = []
 wyniki = []
