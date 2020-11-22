@@ -13,7 +13,7 @@ def znajdz(list):
                  ilosc+=1
          if ilosc>=2:
              wyniki.append(x)
-             break# tutaj jakby dodać "break" to znajdzie pierwszy powtarzajacy sie element i zakonczy szukanie dalej
+             # tutaj jakby dodać "break" to znajdzie pierwszy powtarzajacy sie element i zakonczy szukanie dalej
 #deklaracja list
 list1 = []
 wyniki = []
