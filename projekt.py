@@ -1,14 +1,19 @@
 import os
 #zamiast funkcji len() można uzyć zapytania do uzytkownika o ilość liczb ale funkcja len jest wygodniejsza
 wyniki = []
-def znajdz(x):
-    for x in range(0,len(list1)):
+def znajdz(list):
+    ile = 0
+    for i in list:
+        ile = ile + 1
+    print(ile)
+    for x in range(0,ile): #tutaj można by zastosować funckję len(list) i nie trzeba byłoby wprowadzać zmiennej "ile"
          ilosc = 0 #dodatkowa zmienna pomocnicza do zliczania wystąpień x
-         for i in range(0,len(list1)):
-             if x==list1[i]: # tutaj musi być x a nie jak wcześniej list[x] by elementy sie nie powtarzały i by szukano powtarzających się elementów tylko z przedziału zawartego w zadaniu
-                 ilosc +=1
+         for i in range(0,ile):
+             if x==list1[i]: # tutaj musi być x a nie jak wcześniej list[x] by elementy sie nie powtarzały i by szukano powtarzających się elementów tylko z przedziału zawartego w  treści zadania
+                 ilosc+=1
          if ilosc==2:
-             wyniki.append(x) # tutaj jakby dodać brake to znajdzie pierwszy powtarzajacy sie element i zakonczy szukanie dalej
+             wyniki.append(x)
+             # tutaj jakby dodać brake to znajdzie pierwszy powtarzajacy sie element i zakonczy szukanie dalej
 #deklaracja list
 list1 = []
 wyniki = []
