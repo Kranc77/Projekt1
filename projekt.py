@@ -6,7 +6,7 @@ def znajdz(list):
     for i in list:
         ile = ile + 1
     print(ile)
-    for x in range(0,ile): #tutaj można by zastosować funckję len(list) i nie trzeba byłoby wprowadzać zmiennej "ile"
+    for x in range(1,ile): #tutaj można by zastosować funckję len(list) i nie trzeba byłoby wprowadzać zmiennej "ile"
          ilosc = 0 #dodatkowa zmienna pomocnicza do zliczania wystąpień x
          for i in range(0,ile):
              if x==list1[i]: # tutaj musi być x a nie jak wcześniej list[x] by elementy sie nie powtarzały i by szukano powtarzających się elementów tylko z przedziału zawartego w  treści zadania
