@@ -1,5 +1,5 @@
 import os
-#zamiast funkcji len() można uzyć zapytania do uzytkownika o ilość liczb ale funkcja len jest wygodniejsza
+#zamiast funkcji len()/lub zliczającej wyrazy można uzyć zapytania do uzytkownika o ilość liczb
 wyniki = []
 def znajdz(list):
     ile = 0
